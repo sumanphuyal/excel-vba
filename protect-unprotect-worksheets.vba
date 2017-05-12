@@ -15,7 +15,7 @@ Private Sub unprotectAllWorksheets()
    Dim ws As Worksheet
    Dim pwd As String
     
-   pwd = "abc" ' if worksheets were protected without any password use pwd = ""
+pwd = "abc" ' if worksheets were protected without any password use pwd = "" 
    For Each ws In Worksheets
       ws.Unprotect Password:=pwd
    Next ws
