@@ -1,4 +1,4 @@
-Private Sub CommandButton1_Click()
+Private Sub ExportToExcel_Click()
   loopAgain:
      'change file path to path where file is located
      Dim MyPath As String
